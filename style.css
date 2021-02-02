@@ -1,0 +1,90 @@
+body {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  font-family: "Nunito", sans-serif;
+}
+
+.card {
+  border: 8px solid #1ab2a8;
+  border-radius: 25px;
+  margin: 100px;
+  padding: 50px;
+}
+
+.coded-by {
+  color: #5a6275;
+  font-family: monospace;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.col-sm .fas {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+.current {
+  font-weight: bolder;
+}
+
+.current-location {
+  color: #9890e3;
+  font-size: 28px;
+  transition: all 200ms ease-in-out;
+}
+
+.current-location:hover {
+  color: #b1f4cf;
+  cursor: pointer;
+}
+
+.flex-nowrap {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.following-days {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.me {
+  color: #1ab2a8;
+  text-decoration: none;
+}
+
+.me:hover {
+  color: #1ab2a8;
+  font-weight: bolder;
+}
+
+.today {
+  color: #5a6275;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.temperature {
+  color: #939aa9;
+  font-weight: bolder;
+}
+
+.t-unit {
+  font-size: 20px;
+  text-align: right;
+}
+
+.t-unit:hover {
+  cursor: pointer;
+}
+
+.today .fas.fa-cloud-sun {
+  color: black;
+  font-size: 48px;
+  margin: o auto;
+}
+
+.input-container {
+  display: block;
+  margin: 80px 400px 50px 300px;
+}
